@@ -1,0 +1,34 @@
+/* Navbar */
+
+.navbar{
+    font-family: "Candara";
+}
+
+.nav-link{
+    color:dimgray;
+    font-size: 140%;
+}
+
+a:hover {
+  color: darkslateblue;
+}
+
+
+/* Text */
+
+.text{
+    font-family: "Candara";
+    color:dimgray;
+}
+
+/* Background */
+
+body {
+    background-image: url("background.png");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Spacing */
