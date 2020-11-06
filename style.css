@@ -1,10 +1,11 @@
 /* Navbar */
 
-.navbar{
+.navbar {
     font-family: "Candara";
+    opacity: .95;
 }
 
-.nav-link{
+.nav-link {
     color:dimgray;
     font-size: 140%;
 }
@@ -16,7 +17,7 @@ a:hover {
 
 /* Text */
 
-.text{
+.text {
     font-family: "Candara";
     color:dimgray;
 }
@@ -24,11 +25,20 @@ a:hover {
 /* Background */
 
 body {
-    background-image: url("background.png");
+    background-image: url("background1.png");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 /* Spacing */
+
+top {
+    margin-top: 1000px;
+}
+
+.icon {
+    max-width: 15%;
+}
